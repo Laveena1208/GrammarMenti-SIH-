@@ -6,8 +6,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/course.css">
+    <link rel="stylesheet" href="style/Optionsstyle.css" type="text/css" />
+    <link rel="stylesheet" href="style/general.css" type="text/css" />
+
 </head>
 <body>
+<header>
+        <nav class="main-nav">
+            <input type="checkbox" id="check" />
+            <label for="check" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+            <!-- <a href="index.html" class="logo">andraWare</a> -->
+            <a href="#"><img src="images/Brandlogo.png" /></a>
+            <ul class="navlinks">
+                <li><a href="side_nav.php">course</a></li>
+                <li><a href="profile.php">profile</a></li>
+                <li><a href="course.php">test</a></li>
+                <li><a href="index.php" class="contact">signout</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <div class="team_container">
             <div class="text">Course Test</div>
@@ -162,4 +181,21 @@
         </div>
     </div>
 </body>
+<!-- Footer -->
+<footer>
+    <div class="content">
+        <div class="middle box">
+            <div><a href="login.php">Login</a></div>
+        </div>
+        <div class="middle box">
+            <div><a href="signup.php">Register</a></div>
+        </div>
+        <div class="middle box">
+            <div><a href="feedbackform.php">Feedback</a></div>
+        </div>
+        <br>
+        <div class="bottom">
+            <h6>Copyright© 2022 GrammarMenti</h6>
+        </div>
+</footer>
 </html>
